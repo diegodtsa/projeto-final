@@ -1,0 +1,69 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link{
+    color: #242f51 !important;
+    padding: 0 10px !important;
+}
+
+.botao-azul{
+    background-color: #2500f9;
+    color: #fff !important;
+    padding: 10px 25px !important;
+    border-radius: 25px;
+    text-decoration: none;
+    border: 1px solid #2500f9;
+}
+
+.botao-azul:hover{
+    background-color: #fff;
+    color: #2500f9 !important;
+    padding: 10px 25px !important;
+    border-radius: 25px;
+    text-decoration: none;
+    border: 1px solid #2500f9;
+}
+
+.botao-branco{
+    color: blue !important;
+    padding: 10px 25px !important;
+    text-decoration: none;
+
+}
+
+#primeiro{
+    padding: 40px 70px;
+    background-image: url(./img/background1.png), url(./img/background2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+#texto-inicial{
+    color: #242f51;
+    font-size: 60px;
+}
+
+.texto-cinza{
+    color: #616368;
+}
+
+.imagem-inicial{
+    height: 600px;
+}
+
+#segundo{
+    padding: 100px;
+}
+
+.titulo-padrao{
+    color: #242f51;
+    font-weight: 600;
+}
+
+.texto-negrito-azul{
+    color: #242f51;
+    font-weight: 600;
+    font-size: 18px;
+}
