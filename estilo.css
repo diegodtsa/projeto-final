@@ -4,7 +4,7 @@ body{
 
 .nav-link{
     color: #242f51 !important;
-    padding: 0 10px !important;
+    padding: 0 20px !important;
 }
 
 .botao-azul{
@@ -26,9 +26,12 @@ body{
 }
 
 .botao-branco{
-    color: blue !important;
+    background-color: #2500f9;
+    color: white !important;
     padding: 10px 25px !important;
+    border-radius: 25px;
     text-decoration: none;
+    border: 1px solid white;
 
 }
 
@@ -50,15 +53,15 @@ body{
 }
 
 .imagem-inicial{
-    height: 600px;
+    height: 700px;
 }
 
 #segundo{
-    padding: 100px;
+    padding: 50px 0px;
 }
 
 .titulo-padrao{
-    color: #242f51;
+    color: #2500f9;
     font-weight: 600;
 }
 
@@ -66,4 +69,75 @@ body{
     color: #242f51;
     font-weight: 600;
     font-size: 18px;
+}
+
+.padding-padrao{
+    padding: 150px 0px;
+}
+
+.accordion-body{    
+    background-color: #ededed;
+    color: #616368;
+    padding: 8px 10px !important;
+}
+
+.accordion-header, .accordion-button{
+    background-color: #ededed !important;
+    color: #242f51 !important;
+    font-weight: 600;
+}
+
+.accordion-item{
+    margin-top: 10px !important;
+    border: 0px !important;
+}
+
+.accordion-header{
+    padding: 8px 10px;
+}
+
+.accordion-button:focus{
+    box-shadow: none !important;
+
+}
+
+.accordion-button:after{
+    background-image: url(img/plus.png) !important;
+}
+
+.accordion-button:not(.collapsed):after{
+    background-image: url(img/minus.png) !important;
+}
+
+#quinto{
+    background-image: url(img/imagem5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+#sexto{
+    background-color: #242f51;
+    color: white;
+    padding-bottom: 0 ;
+}
+
+.lista-linear{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.lista-linear li{
+    list-style: none;
+    margin: 10px;
+}
+
+.icones{
+    font-size: 30px;
+
+}
+
+.icones:hover{
+    color: #fff;
 }
